@@ -1,0 +1,22 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "A sample Node.js project",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "mocha tests/*.test.js",
+      "build": "tsc"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+      "mocha": "^9.1.0",
+      "typescript": "^4.5.4"
+    },
+    "author": "John Doe",
+    "license": "MIT"
+  }
+  
